@@ -1,21 +1,63 @@
 .navbar {
+    width: 100%;
     background-color: #333;
+    color: white;
     padding: 1rem;
-  }
-  
-  .navList {
-    list-style-type: none;
     display: flex;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
+    justify-content: space-between;
+    align-items: center;
   }
   
-  .navItem a {
+  .brand a {
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   
+  .menu {
+    display: flex;
+    gap: 1rem;
+  }
   
+  .link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #333;
+      text-align: center;
+    }
+  
+    .menu.show {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
   

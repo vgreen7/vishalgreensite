@@ -69,4 +69,22 @@
       transform: translateY(-10px);
     }
   }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .imageContainer {
+      flex-direction: column;
+    }
+  
+    .arrowContainer {
+      margin-top: 1rem;
+    }
+  
+    .about {
+      padding: 1rem;
+    }
+  }
   

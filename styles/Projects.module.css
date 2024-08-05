@@ -23,4 +23,16 @@
     width: 100%;
     justify-content: center; /* Center the cards within the container */
   }
+
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+      margin: 0.5rem 0;
+    }
+  
+    .grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
   
