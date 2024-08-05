@@ -5,7 +5,7 @@ import WorkExperienceCard from "../../components/WorkExperienceCard.js";
 import experience from "../../data/workExperience.json";
 import styles from "/styles/WorkExperience.module.css";
 import Navbar from "../../components/navbar";
-import Footer from "@/components/footer.js";
+import Footer from "../../components/footer";
 
 export default function WorkExperience() {
   return (
