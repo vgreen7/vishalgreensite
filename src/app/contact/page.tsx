@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "/styles/About.module.css";
 import Navbar from "../../components/navbar";
 import Socials from "../../components/Socials";
-import Footer from "../../components/footer";
+import Footer from "../../components/footer.js";
 
 const Contact = () => {
   return (
