@@ -32,7 +32,7 @@ export default function Home() {
         <div className={styles.imageContainer}>
           <div className={styles.profileImageWrapper}>
             <Image
-              src="/images/vishalgreen.jpg"
+              src="/images/vishalgreen.JPG"
               alt="Picture of Vishal Green"
               className={styles.profileImage}
               width={300}
