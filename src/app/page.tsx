@@ -39,7 +39,7 @@ export default function Home() {
               height={200}
             />
           </div>
-          <h1 className={styles.title}>Hello! I'm Vishal Green.</h1>
+          <h1 className={styles.title}>Hello! I&apos;m Vishal Green.</h1>
         </div>
 
         <div className={styles.arrowContainer}>
@@ -55,7 +55,7 @@ export default function Home() {
 
         <section ref={aboutRef} id="about" className={styles.about}>
           <p>
-            Hey! I'&#39'm Vishal Green, a Computer Science student at Virginia
+            Hey! I&apos;m Vishal Green, a Computer Science student at Virginia
             Tech. I am passionate about solving big problems, and I do so with
             the help of some creativity, ingenuity, and a bit of code.
           </p>
@@ -69,7 +69,8 @@ export default function Home() {
           </p>
           <br />
           <p>
-            If you're interested in my work experience, it can be found in the
+            If you&apos;re interested in my work experience, it can be found in
+            the
             <Link legacyBehavior href="/work-experience">
               <a className={styles.aboutLink}> Work Experience </a>
             </Link>
@@ -81,7 +82,7 @@ export default function Home() {
             <Link legacyBehavior href="/projects">
               <a className={styles.aboutLink}> Projects </a>
             </Link>
-            section.
+            section. Feel free to check them out!
           </p>
         </section>
       </main>
