@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.brand}>
-        <Link href="/">My Resume</Link>
+        <Link href="/">Vishal Green</Link>
       </div>
       <div className={styles.hamburger} onClick={toggleMenu}>
         <div className={styles.bar}></div>
