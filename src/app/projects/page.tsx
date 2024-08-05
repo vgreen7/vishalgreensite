@@ -11,8 +11,8 @@ export default function WorkExperience() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Work Experience</title>
-        <meta name="description" content="My work experience" />
+        <title>Projects</title>
+        <meta name="description" content="Projects" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

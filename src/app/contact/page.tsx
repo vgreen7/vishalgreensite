@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>About Me</title>
+        <title>Contact Me</title>
         <meta name="description" content="Contact Me" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

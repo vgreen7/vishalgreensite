@@ -55,9 +55,9 @@ export default function Home() {
 
         <section ref={aboutRef} id="about" className={styles.about}>
           <p>
-            Hey! I'm Vishal Green, a Computer Science student at Virginia Tech.
-            I am passionate about solving big problems, and I do so with the
-            help of some creativity, ingenuity, and a bit of code.
+            Hey! I'&#39'm Vishal Green, a Computer Science student at Virginia
+            Tech. I am passionate about solving big problems, and I do so with
+            the help of some creativity, ingenuity, and a bit of code.
           </p>
           <br />
           <p>
