@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Undergraduate Researcher | IDEEAS Lab",
+      "place": "Virginia Tech College of Engineering",
+      "years": "Jan 2024-Present",
+      "position": "Researcher",
+      "description": "I am conducting research using large language models and generative AI to analyze the public perception of artificial intelligence in the medical field."
+    },
+    {
+      "name": "Team Infinitum Member",
+      "place": "Archimedes Design Team",
+      "years": "Sep 2024-Present",
+      "position": "Developer",
+      "description": "Team Infinitum is an all freshman design team under the Archimedes Society at Virginia Tech. Our team will be competing in the Microsoft Imagine Cup, an international design competition showcasing projects from around the world. I am working in a team of 8 to develop full-stack software for the competition."
+    },
+    {
+      "name": "Software Engineer Intern",
+      "place": "RAM Consulting Corporation",
+      "years": "May 2024-Jul 2024",
+      "position": "Software Engineer Intern",
+      "description": "I am using C# and ASP.NET to modernize legacy technology with a team of interns to create client-ready, full-stack applications."
+    },
+    {
+      "name": "Engineering Intern",
+      "place": "EastBanc Technologies",
+      "years": "Jun 2021-Aug 2021",
+      "position": "Engineering Intern",
+      "description": "Programmed/developed live, client-ready software programs and sites Developed static sites using Jekyll, and deployed them via GitHub pages. Took online courses in Github, Docker, and Kubernetes."
+    }
+  ]
+  

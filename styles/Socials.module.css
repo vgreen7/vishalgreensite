@@ -1,0 +1,18 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .socials a {
+    font-size: 2rem;
+    color: inherit;
+    transition: transform 0.3s ease;
+  }
+  
+  .socials a:hover {
+    transform: scale(1.2);
+    color: #0070f3; /* Change this to the color you prefer */
+  }
+  

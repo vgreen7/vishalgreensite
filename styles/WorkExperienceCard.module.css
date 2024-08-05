@@ -1,0 +1,40 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px auto; /* Center the card horizontally */
+    transition: background-color 0.3s;
+    width: 1000px; /* Set a fixed width for the card */
+    min-height: 200px; /* Set a minimum height for the card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden; /* Hide overflow content */
+    text-align: left;
+  }
+  
+  .card:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .place {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .years,
+  .position,
+  .description {
+    font-size: 1rem;
+    margin: 4px 0;
+  }
+  
+  .description {
+    flex-grow: 1; /* Allow description to take up remaining space */
+  }
+  

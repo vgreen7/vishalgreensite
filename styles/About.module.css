@@ -1,0 +1,33 @@
+.container {
+    padding: 0 2rem;
+  }
+  
+  .main {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .title {
+    margin: 2rem 0;
+    font-size: 2.5rem;
+  }
+  
+  .aboutSection {
+    max-width: 800px;
+    margin: 3rem auto;
+    text-align: left;
+  }
+  
+  .aboutSection h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .aboutSection p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  

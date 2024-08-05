@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/WorkExperienceCard.js", "src/app/work-experience/page.js", "src/app/pages/workExperience.js"],
   "exclude": ["node_modules"]
 }
